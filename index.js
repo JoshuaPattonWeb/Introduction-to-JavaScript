@@ -37,9 +37,15 @@ Do the following:
 
    HINT: no function required
 */
+let food = 'pizza';
+let style = 'italian';
 
-
-
+if (food === 'italian'){
+  style = 'greek';
+} else {
+  style = 'italian';
+}
+console.log(style);
 
 
 /*
@@ -52,7 +58,8 @@ Do the following:
 
    HINT: look up the Number method
 */
-
+const date = '1999';
+console.log(Number(date));
 
 
 
@@ -209,9 +216,8 @@ Using the feet function below do the following:
 
 function feet(cm){
   return cm / 30.48
-  console.log(feet)
 }
-feet(30);
+console.log(feet(30));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
